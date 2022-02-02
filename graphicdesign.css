@@ -93,6 +93,7 @@ a:active {
   position: relative;
   display: flex;
   padding: 10px;
+  padding-bottom: 50px;
   width: 6.25%;
   align-items: flex-end;
   justify-content: center;
