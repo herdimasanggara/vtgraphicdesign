@@ -121,11 +121,11 @@ a:active {
 }
 
 .table__cell:nth-child(5) {
-  background-color: goldenrod;
+  background-color: gold;
 }
 
 .table__cell:nth-child(6) {
-  background-color: black;
+  background-color: goldenrod;
 }
 
 .table__cell:nth-child(7) {
