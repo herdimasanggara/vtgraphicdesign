@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  overflow: hidden;
+  overflow-y: hidden;
 }
 
 hr {
@@ -20,7 +20,7 @@ hr {
 }
 
 .weektop {
-  position: fixed;
+  position: absolute;
   top: 0;
   padding-top: 5px;
   color: black;
@@ -95,11 +95,11 @@ a:active {
   display: flex;
   padding: 10px;
   padding-bottom: 50px;
-  width: 6.25%;
+  width: 6.25vw;
   align-items: flex-end;
   justify-content: center;
   border-right: 1px solid black;
-  max-height: 1000vh;
+  max-height: 100vh;
 }
 
 .table__cell_top {
@@ -151,7 +151,7 @@ a:active {
 }
 
 .table__cell:nth-child(12) {
-  background-color: black;
+  background-color: gold;
 }
 
 .table__cell:nth-child(13) {
